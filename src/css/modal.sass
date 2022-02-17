@@ -1,0 +1,57 @@
+.reach-calendar-modal-backdrop
+  position: fixed
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  background-color: rgba(0, 0, 0, 0.3)
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 999999999
+  font-size: 12px
+
+  .reach-calendar-modal
+    background: #FFFFFF
+    box-shadow: 2px 2px 20px 1px
+    overflow-x: auto
+    display: flex
+    flex-direction: column
+    max-width: 60%
+
+  .reach-calendar-modal-header, .reach-calendar-modal-footer
+    padding: 15px
+
+  .reach-calendar-modal-header
+    border-bottom: 1px solid #eeeeee
+    justify-content: center
+    font-weight: bold
+    font-size: 20px
+    color: #000
+
+  .reach-calendar-modal-footer
+    border-top: 1px solid #eeeeee
+
+  .reach-calendar-modal-body
+    position: relative
+    padding: 20px 10px
+
+  .reach-calendar-modal-descriptions
+    font-size: 12px
+
+  .reach-calendar-modal-times
+    font-size: 12px
+    padding-bottom: 5px
+
+  .reach-calendar-modal-locations
+    font-size: 12px
+    font-weight: bold
+
+  .reach-calendar-modal-action
+    display: inline-block
+
+  .reach-calendar-link-pointer:hover
+    color: red
+
+  .reach-calendar-link-pointer
+    cursor: pointer
